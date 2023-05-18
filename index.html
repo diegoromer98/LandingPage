@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis&family=Kanit:wght@300&family=Raleway:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <img src="./images/logo.svg" class="nav__img" alt="" width="0%">
+
+</head>
+
+<body>
+
+
+  <nav class="nav container">
+    <a href="#" class="logo">
+      <img src="./images/3d-printer-print-logo-05-.jpg" class="nav__img" width="180px">
+    </a>
+
+    <div class="nav__hamburguer"></div>
+
+    <div class="nav__overlay">
+      <ul class="nav__menu">
+
+        <li class="nav__item">
+          <span class="nav__parent">Servicios
+            <img src="./images/icon-arrow-down.svg" class="nav__arrow">
+          </span>
+
+          <ul class="nav__inner">
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <img src="./images/icon-todo.svg" class="nav__illustration">
+                Todo List
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <img src="./images/icon-calendar.svg" class="nav__illustration">
+                Calendar
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <img src="./images/icon-reminders.svg" class="nav__illustration">
+                Reminder
+              </a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">
+                <img src="./images/icon-planning.svg" class="nav__illustration">
+                Planning
+              </a>
+            </li>
+
+
+          </ul>
+
+        </li>
+
+        <div id="chat">Chat</div>
+        
+
+        <li class="nav__item">
+
+          <span class="nav__parent">Recursos
+            <img src="./images/icon-arrow-down.svg" class="nav__arrow">
+          </span>
+
+          <ul class="nav__inner">
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">History</a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">Our Team</a>
+            </li>
+
+            <li class="nav__dropdown">
+              <a href="#" class="nav__link">Blog</a>
+            </li>
+
+
+          </ul>
+
+        </li>
+
+        <li class="nav__item">
+          <a href="#" class="nav__link">Productos</a>
+        </li>
+
+        <li class="nav__item">
+          <a href="#" class="nav__link">Quienes somos</a>
+        </li>
+
+        <li class="nav__login nav__login--border">
+          <a href="#" class="nav__sign">Registrate</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <main class="main">
+    <section class="main__grid">
+
+      <picture class="main__picture">
+
+        <img src="./images/pexels-fox-15686999.jpg" class="main__img" width="800px" media="(min-width:768px)">
+
+      </picture>
+
+      <article class="main__article">
+
+        <div class="main__texts">
+
+          <h1 class="main__title"> Servicio de impresión 3D para toda Colombia</h1>
+          <p class="main__paragraph"> Nuestros Productos (Impresoras, Escáner, Máquinas 3D, Entre Otros)
+          </p>
+          <div>
+            <img
+              src="./images/kisspng-zortrax-z-abs-3d-printing-filament-zortrax-z-ultra-filament-zortrax-abs-175mm-noir-pur-zortrax-z-abs-5ba30169d13f84.6271949315374093858571.png"
+              alt="" width="180px">
+
+            <img src="./images/impresora3d.png" alt="" width="180px">
+
+            <img src="./images/impresora.png" alt="" width="200px">
+          </div>
+          <a href="#" class="main__cta">Ver mas</a>
+
+        </div>
+
+      </article>
+
+    </section>
+  </main>
+
+  <script src="./js/menu.js"></script>
+
+</body>
+
+
+
+<form class="formulario">
+  <fieldset>
+    <legend>Contactanos llenando los siguientes campos</legend>
+
+    <div class="contenedor de campos">
+      <div class="campo">
+
+        <label class="label">Ingrese su Nombre</label>
+        <input type="text" name="nombre" placeholder="Digite su Nombre " requerided>
+
+        <div>
+          <label class="label">Ingrese su Telefono</label>
+          <input type="tel" placeholder="Digite el Telefono">
+        </div>
+
+        <div>
+          <label class="label">Ingrese su Correo</label>
+          <input type="email" placeholder="Digite el Coreo electronico ">
+        </div>
+
+        <div>
+          <label class="label">Envie un Mensaje:</label>
+          <textarea>Escriba su Mensaje</textarea>
+          <input  class="boton" type="submit" value="Enviar">
+        </div>
+
+  </fieldset>
+</form>
+
+
+
+<footer> &copy;2023. All Rights Reserved</footer>
+
+</html>
